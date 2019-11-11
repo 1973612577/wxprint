@@ -1,0 +1,5 @@
+/* pages/register/register.wxss */
+.reg-box{
+  display: flex;
+  flex-direction: row;
+}

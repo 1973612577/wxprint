@@ -1,0 +1,46 @@
+.mainbox{
+  display: flex;
+  flex-direction: column;
+}
+.top-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400rpx;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 40rpx;
+}
+.mid-box{
+  display: flex;
+  flex-direction: column;
+  margin-left: 80rpx;
+  margin-right: 80rpx;
+}
+.mid{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40rpx;
+  border-bottom: 1px solid #eee;
+}
+.input-border{
+  width: 100%;
+}
+.input-h{
+  text-align: center;
+}
+.logo{
+  width: 250rpx;
+}
+.bot-box{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20rpx;
+  margin-bottom: 40rpx;
+
+}

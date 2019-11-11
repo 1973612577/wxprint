@@ -1,0 +1,22 @@
+<view class="main-box">
+  <view>
+    学号：<input placeholder="请输入学号" bindinput="registerNum"></input>
+  </view>
+  <view>
+    <text>姓名：</text>
+    <input placeholder="请输入姓名" bindinput="registerName"></input>
+  </view>
+  <view>
+    <text>手机号：</text>
+    <input placeholder="请输入手机号" bindinput="registerPhone"></input>
+  </view>
+  <view>
+    <text>密码：</text>
+    <input placeholder="请输入密码" bindinput="registerPassword" type="password"></input>
+  </view>
+  <view>
+    <text>确认密码：</text>
+    <input placeholder="请确认密码" bindinput="registerRepassword" type="password"></input>
+  </view>
+  <button type="primary" bindtap="register">注册</button>
+</view>
