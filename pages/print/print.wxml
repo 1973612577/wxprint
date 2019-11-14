@@ -1,0 +1,43 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="section">
+    <picker name='size' bindchange="bindPickerChange" value="{{element}}" range="{{array}}">
+      <view class="picker">
+        页面大小：{{array[index]}}
+      </view>
+    </picker>
+  </view>
+
+  <view class="section section_gap row">
+    <view class="section__title">打印方式：</view>
+    <radio-group name="printStyle">
+      <label>
+        <radio value="单面" />单面</label>
+      <label>
+        <radio value="双面" />双面</label>
+      <label>
+        <radio value="其他" />其他</label>
+    </radio-group>
+  </view>
+  <view class="section section_gap row">
+    <view class="section__title">黑白彩色：</view>
+    <radio-group name="printColor">
+      <label>
+        <radio value="黑白" />黑白</label>
+      <label>
+        <radio value="彩色" />彩色</label>
+      <label>
+        <radio value="其他" />其他</label>
+    </radio-group>
+  </view>
+  <view class="section">
+    备注：
+    <textarea name="note" bindblur="bindTextAreaBlur" auto-height placeholder="请补充打印信息" />
+  </view>
+
+
+  <!-- 提交按钮与重置按钮 -->
+  <view class="btn-area">
+    <button formType="submit">Submit</button>
+    <button formType="reset">Reset</button>
+  </view>
+</form>

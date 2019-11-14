@@ -3,7 +3,9 @@
     "pages/login/login",
     "pages/main/main",
     "pages/user/user",
-    "pages/register/register"
+    "pages/register/register",
+    "pages/print/print"
+
   ],
   "tabBar": {
     "color": "#2c2c2c",

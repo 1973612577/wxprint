@@ -22,6 +22,10 @@ Page({
         //跳转到主页面
         if(res.data.status == "success"){
           
+          //将登陆成功后返回的用户信息存储到缓存中
+          console.log(res.data.object)
+          wx.setStorageSync("user", res.data.object)
+         
           wx.switchTab({
             url: '/pages/main/main',
           })
