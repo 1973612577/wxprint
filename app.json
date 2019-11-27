@@ -1,19 +1,20 @@
 {
   "pages": [
-    "pages/main/main",
     "pages/login/login",
-    "pages/queue/queue",
+    "pages/main/main",
+    "pages/myprint/myprint",
     "pages/print/print",
+    
+    
+    
+    "pages/queue/queue",
+   
     
     "pages/foundpwd/foundpwd",
     "pages/updatepwd/updatepwd",
     "pages/register/register",
-    
-    "pages/myprint/myprint",
-    
-    
-    "pages/user/user"
   
+    "pages/user/user"
     
   ],
   "tabBar": {
