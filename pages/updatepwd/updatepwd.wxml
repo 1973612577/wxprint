@@ -1,0 +1,12 @@
+<view class="center">
+  
+  <view class="top">
+    <input bindinput="pwd" placeholder="请输入您的新密码"></input>
+  </view>
+  <view class="top">
+    <input bindinput="repwd" placeholder="确认您的密码"></input>
+  </view>
+  <view class="btn">
+    <button bindtap="updatepwd" type="primary">提交</button>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+<view class="center">
+  <view class="top">
+    <!-- <text>学号</text> -->
+    <input bindinput="inputNum" placeholder="请输入您的学号"></input>
+  </view>
+  <view class="top">
+    <!-- <text>验证码</text> -->
+    <input bindinput="inputName" placeholder="请输入您的姓名"></input>
+  </view>
+  <view class="top">
+    <!-- <text>手机号</text> -->
+    <input bindinput="inputPhone" placeholder="请输入所绑定的手机"></input>
+
+  </view>
+  <!-- <view >
+    <text class="text"style="text-align:right">验证</text>
+  </view> -->
+  <!-- <view class="top">
+    <text>您的密码为：{{password}}</text>
+  </view> -->
+
+  <view class="btn">
+    <button bindtap="foundpwd" type="primary">找回密码</button>
+  </view>
+</view>

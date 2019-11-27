@@ -37,11 +37,9 @@ Page({
             title: res.data.msg,
             icon:"none"
           })
-        }
-        
+        } 
       }
     })
-
   },
   //学号输入框事件
   inputNum(res) {
@@ -62,6 +60,12 @@ Page({
     console.log("注册账号");
     wx.navigateTo({
       url: '/pages/register/register',
+    })
+  },
+  foundpwd(){
+    console.log("忘记密码");
+    wx.navigateTo({
+      url: '/pages/foundpwd/foundpwd',
     })
   },
   /**

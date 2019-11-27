@@ -1,0 +1,24 @@
+.queue{
+  border: 2rpx solid skyblue;
+  border-top: 10rpx;
+  border-color: black;
+}
+.item-me{
+  margin-top: 30rpx;
+  text-align: center;
+  height: 60rpx;
+  border-style: groove;
+  border-radius:20rpx;
+  border-width: 2rpx;
+  background-color: #eee;
+ 
+}
+.item-other{
+  text-align: center;
+  margin-top: 30rpx;
+  
+}
+.front{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}

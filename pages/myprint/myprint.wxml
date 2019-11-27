@@ -1,0 +1,22 @@
+<view  wx:for="{{array}}">
+<view  wx:if="{{item.number==user.number}}">
+  <view class="my">
+  <view>[{{index}}] 学号：{{array[index].number}}</view>
+  <!-- 纸张规格:{{array[index].pageSize}} -->
+  <view>文件名字：{{array[index].fileName}}</view>
+  <view>文件大小：{{array[index].size}}</view>
+  <view>打印样式：{{array[index].printStyle}}</view>
+  <view>打印颜色：{{array[index].printColor}}</view>
+  <view>创建时间:{{array[index].gmtCreate}}</view>
+  <view>修改时间:{{array[index].gmtModify}}</view>
+  <view>备注：{{array[index].note}}</view>
+  状态:
+    <text wx:if="{{index==0}}">打印中</text>
+    <text wx:else>排队中</text>
+  <!-- class="{{item.number==user.number?'item-me':'item-other'}}" -->
+  <!-- <view  wx:if="{{array[index].flag==0}}">
+    排队中
+  </view> -->
+  </view>
+  </view>
+</view>

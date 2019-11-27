@@ -13,6 +13,39 @@ Page({
       url: '/pages/print/print',
     })
   },
+  upload: function () {
+    var that=this;
+    wx.chooseMessageFile({
+      count: 1,
+      type: 'file',
+      success(res) {
+        var fileName = res.tempFiles[0].name;
+        var filePath=res.tempFiles[0].path;
+        that.setData({['file.name']:fileName,['file.path']:filePath});
+        console.log(res);
+        
+        wx.uploadFile({
+          url: "http://localhost:8080/uploadFile",
+          filePath: res.tempFiles[0].path,
+          name: 'file',
+          success(res){
+              //json字符串 需用JSON.parse转
+            console.log(res);
+          }
+        })
+      }
+    })
+  },
+  queue(){
+    wx.navigateTo({
+      url: '/pages/queue/queue',
+    })
+  },
+  myprint(){
+    wx.navigateTo({
+      url: '/pages/myprint/myprint',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,25 +1,25 @@
 <view class="main-box">
   <view class="reg-box">
-    <text>学号：</text>
-    <input placeholder="请输入学号" bindinput="registerNum"></input>
+    <!-- <text>学号：</text> -->
+    <input class="input-box" placeholder="请输入学号" bindinput="registerNum"></input>
   </view>
   <view class="reg-box">
-    <text>姓名：</text>
-    <input placeholder="请输入姓名" bindinput="registerName"></input>
+    <!-- <text>姓名：</text> -->
+    <input class="input-box" placeholder="请输入姓名" bindinput="registerName"></input>
   </view>
   <view class="reg-box">
-    <text>手机号：</text>
-    <input placeholder="请输入手机号" bindinput="registerPhone"></input>
+    <!-- <text>手机号：</text> -->
+    <input class="input-box" placeholder="请输入手机号" bindinput="registerPhone"></input>
   </view>
   <view class="reg-box">
-    <text>密码：</text>
-    <input placeholder="请输入密码" type="password" bindinput="registerPassword"></input>
+    <!-- <text>密码：</text> -->
+    <input class="input-box" placeholder="请输入密码" type="password" bindinput="registerPassword"></input>
   </view>
   <view class="reg-box">
-    <text>确认密码：</text>
-    <input placeholder="请确认密码" type="password" bindinput="registerRepassword"></input>
+    <!-- <text>确认密码：</text> -->
+    <input class="input-box" placeholder="请确认密码" type="password" bindinput="registerRepassword"></input>
   </view>
   <view >
-    <button bindtap="register" type="primary">注册</button>
+    <button class="btn" bindtap="register" type="primary">注册</button>
   </view>
 </view>

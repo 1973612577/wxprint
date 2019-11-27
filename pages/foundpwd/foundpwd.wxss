@@ -1,0 +1,24 @@
+.main{
+  display: flex;/* 弹性布局 */
+  flex-direction: row;/* 横向布局 */
+}
+.center{
+  text-align: center;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.top{
+  margin-top: 50rpx;
+  border-style: groove;
+  border-radius:20rpx;
+  border-color: #eee;
+  height: 70rpx;
+}
+.btn{
+ margin-top: 50rpx;
+}
+.text{
+  margin-left: 40rpx;
+  font-size: 35rpx;
+  background-color: #eee;
+}

@@ -1,6 +1,21 @@
 /* pages/register/register.wxss */
 .reg-box{
-  display: flex;
-  flex-direction: row;
+  margin-top: 40rpx;
+  /* display: flex;
+  flex-direction: row; */
   
+}
+.input-box{
+  text-align: center;
+  border-style: groove;
+  border-radius:30rpx;
+  border-color: #eee;
+  height: 80rpx;
+}
+.btn{
+  margin-top: 40rpx;
+}
+.main-box{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
 }

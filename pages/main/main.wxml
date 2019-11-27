@@ -1,3 +1,6 @@
+<view class="main">
 <button type="primary" class="btn" bindtap="print">预约打印</button>
-<button type="primary" class="btn">当前队列</button>
-<button type="primary" class="btn">我的预约</button>
+<button type="primary" class="btn" bindtap="queue">当前队列</button>
+<button type="primary" class="btn" bindtap="myprint">我的预约</button>
+<!-- <button type="primary" class="btn" bindtap="upload">文件上传</button> -->
+</view>

@@ -24,7 +24,7 @@
   <!-- 注册与忘记密码 -->
   <view class="bot-box">
     <view style="flex:1;" bindtap="register">注册账号</view>
-    <view>忘记密码</view>
+    <view bindtap="foundpwd">忘记密码</view>
   </view>
 
 </view>

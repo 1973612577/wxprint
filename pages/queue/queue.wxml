@@ -1,0 +1,15 @@
+<view class="front">
+  <view class="{{item.number==user.number?'item-me':'item-other'}}" wx:for="{{array}}">
+    [{{index}}] 学号：{{array[index].number}}
+    <!-- 纸张规格:{{array[index].pageSize}} -->
+    <!-- 文件大小：{{array[index].size}} -->
+    <!-- 创建时间:{{array[index].getCreat}} 修改时间:{{array[index].getModify}}  -->
+    状态:
+    <text wx:if="{{index==0}}">打印中</text>
+    <text wx:else>排队中</text>
+
+    <!-- <view  wx:if="{{array[index].flag==0}}">
+    排队中
+  </view> -->
+  </view>
+</view>

@@ -1,0 +1,7 @@
+.my{
+ 
+  margin-top: 40rpx;
+  border-style: double;
+  border-radius:20rpx;
+  
+}
